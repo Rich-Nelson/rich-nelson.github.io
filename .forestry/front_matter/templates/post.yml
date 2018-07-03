@@ -1,0 +1,53 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+  label: layout
+  name: layout
+  default: post
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  label: Date
+  name: date
+  config:
+    date_format: YYYY-MM-DD
+    time_format: hh:mm:ss
+- type: select
+  name: categories
+  config:
+    source:
+      type: simple
+    options:
+    - side-project
+    - professional-project
+    - school-project
+  label: Categories
+- type: tag_list
+  name: tags
+  label: tags
+- type: file
+  label: image
+  name: image
+- type: file
+  name: image2
+  label: image2
+- type: file
+  name: image-thumb
+  label: image-thumb
+- type: text
+- type: text
+- type: textarea
+- type: text
+  name: excerpt
+  label: excerpt
