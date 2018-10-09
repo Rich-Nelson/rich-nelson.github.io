@@ -42,3 +42,5 @@ fields:
 - type: file
   name: image-thumb
   label: Image Thumb
+pages:
+- _posts/day-cycle-clock.md
